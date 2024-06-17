@@ -1,0 +1,52 @@
+[
+  {
+      "question": "What is the capital of Japan?",
+      "options": ["Tokyo", "Seoul", "Beijing", "Bangkok"],
+      "answer": "Tokyo"
+  },
+  {
+      "question": "What is the square root of 16?",
+      "options": ["2", "3", "4", "5"],
+      "answer": "4"
+  },
+  {
+      "question": "Which planet is known for its rings?",
+      "options": ["Venus", "Mars", "Saturn", "Neptune"],
+      "answer": "Saturn"
+  },
+  {
+      "question": "What is the longest river in the world?",
+      "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+      "answer": "Nile"
+  },
+  {
+      "question": "At what temperature does water freeze?",
+      "options": ["0°C", "32°C", "50°C", "100°C"],
+      "answer": "0°C"
+  },
+  {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "options": ["Emily Brontë", "Jane Austen", "Mary Shelley", "Charlotte Brontë"],
+      "answer": "Jane Austen"
+  },
+  {
+      "question": "What is the currency of the United Kingdom?",
+      "options": ["Dollar", "Euro", "Pound", "Yen"],
+      "answer": "Pound"
+  },
+  {
+      "question": "Which element has the chemical symbol H?",
+      "options": ["Helium", "Hydrogen", "Mercury", "Hafnium"],
+      "answer": "Hydrogen"
+  },
+  {
+      "question": "What is the fastest land animal?",
+      "options": ["Lion", "Cheetah", "Gazelle", "Horse"],
+      "answer": "Cheetah"
+  },
+  {
+      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+      "answer": "Nitrogen"
+  }
+]
