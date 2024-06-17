@@ -82,9 +82,9 @@ function App() {
       </main>
       <footer className="text-center py-4 bg-gradient-to-r from-teal-500 to-blue-700  text-white shadow-md mt-4 rounded-t-lg">
       <div className="flex items-center justify-center space-x-2">
-        <span className="text-lg text-blue-800 italic">Made with</span>
-        <span className="animate-pulse text-blue-800 italic">❤️</span>
-        <span className="text-lg text-blue-800 italic">by</span>
+        <span className="text-lg text-blue-950 italic">Made with</span>
+        <span className="animate-pulse text-blue-950 italic">❤️</span>
+        <span className="text-lg text-blue-950 italic">by</span>
         <a 
           href="https://github.com/Amank04" 
           className="text-white hover:font-bold text-xl font-semibold transition-colors flex items-center space-x-1"
