@@ -14,7 +14,7 @@ Welcome to the Quiz Application! This application allows users to take a quiz wi
 
 ## Live Demo
 
-Try the live demo of the Quiz Application [here](https://quiz-app-eight-beta.vercel.app/).
+Try the live demo of the Quiz Application [Click here](https://quiz-app-assignment-sigma.vercel.app/).
 
 ## Technologies Used
 
@@ -30,12 +30,12 @@ To run this application locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/adityasingh151/quiz-app.git
+   git clone https://github.com/Amank04/QuizAppAssignment.git
    ```
 
 2. Navigate into the project directory:
    ```bash
-   cd quiz-app
+   cd QuizAppAssignment
    ```
 
 3. Install dependencies using npm or yarn:
@@ -59,7 +59,7 @@ To run this application locally, follow these steps:
    yarn start
    ```
 
-5. Open your browser and navigate to `http://localhost:3000` to view the application.
+5. Open your browser and navigate to `http://localhost:5173` to view the application.
 
 ## Usage
 
