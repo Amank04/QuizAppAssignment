@@ -43,7 +43,7 @@ function App() {
   };
 
   const handleQuizComplete = (finalScore) => {
-    setScore(finalScore);
+    // setScore(finalScore);
     setQuizStarted(false);
     setShowResults(true);
   };

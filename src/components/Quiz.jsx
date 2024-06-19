@@ -6,6 +6,7 @@ const Quiz = ({ questions, playerName, onComplete }) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [score, setScore] = useState(0);
   const [error, setError] = useState(null);
+  const [quizCompleted, setQuizCompleted] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,6 +26,13 @@ const Quiz = ({ questions, playerName, onComplete }) => {
       handleComplete();
     }
   }, [timer]);
+
+  useEffect(() => {
+    if (quizCompleted) {
+      onComplete(score);
+      console.log("Quiz completed. Final score: ", score);
+    }
+  }, [quizCompleted, score]);
 
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
@@ -48,10 +56,10 @@ const Quiz = ({ questions, playerName, onComplete }) => {
   };
 
   const handleComplete = () => {
-    onComplete(score);
+    setQuizCompleted(true);
   };
 
-  if (timer <= 0) {
+  if (timer <= 0 && !quizCompleted) {
     handleComplete();
     return null;
   }
